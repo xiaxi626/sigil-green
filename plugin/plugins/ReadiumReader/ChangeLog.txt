@@ -1,0 +1,14 @@
+v040
+  - support both Qt5 qnd Qt6 using the latest plugin_utils
+  - properly save plugin app settings between launches
+v030
+  - fixed inconsistent handling of file paths across platforms
+  - moved away from QSettings to use standard bk.prefs to save geometry
+  - minor bug fixes
+  - fixed crash on exit on some platforms with Qt < 5.14
+v020
+  - fixed issue with spaces in path names in readium javascript code
+  - fixed issue in building query
+  - fixed minor typos and cleaned up the code a bit
+v010
+  - first public release of ReadiumReader plugin for Sigil

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<name>CheckInternalLinks</name>
+<autostart>true</autostart>
+<autoclose>true</autoclose>
+<type>validation</type>
+<author>slowsmile</author>
+<description>Checks all internal links in epub2 or epub 3 files.</description>
+<engine>python3.4</engine>
+<version>0.1.0</version>
+<oslist>unx,win,osx</oslist>
+</plugin>

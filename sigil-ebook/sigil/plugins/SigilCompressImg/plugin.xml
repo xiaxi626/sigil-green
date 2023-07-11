@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<name>SigilCompressImg</name>
+<type>edit</type>
+<author>Ichigo_250</author>
+<description>SigilCompressImg</description>
+<engine>python3.4</engine>
+<version>4.1.1</version>
+<oslist>win</oslist>
+<autostart>true</autostart>
+<autoclose>false</autoclose>
+</plugin>

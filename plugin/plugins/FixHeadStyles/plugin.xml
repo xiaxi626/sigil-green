@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<name>FixHeadStyles</name>
+<type>edit</type>
+<author>Doitsu</author>
+<description>replaces style tags with links</description>
+<autostart>true</autostart>
+<engine>python3.4</engine>
+<version>0.0.1</version>
+<oslist>unx,win,osx</oslist>
+</plugin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<name>CSSFromFonts</name>
+<type>edit</type>
+<author>Doitsu</author>
+<description>creates a css file from fonts</description>
+<autostart>true</autostart>
+<engine>python3.4</engine>
+<version>0.2.4</version>
+<oslist>unx,win,osx</oslist>
+</plugin>
