@@ -30,7 +30,7 @@ if "%judge%" == "y"  goto yes
 if "%judge%" == "n"  goto no
 
 :yes
-xcopy  "%~dp0sigil-ebook" "C:\Users\%username%\AppData\Local\sigil-ebook" /c /e /h /y
+xcopy  "%~dp0sigil-ebook" "%LocalAppData%\sigil-ebook" /c /e /h /y
 ::复制绿色版配置文件到本地
 
 :no

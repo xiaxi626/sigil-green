@@ -21,7 +21,7 @@ set /p judge=
 if "%judge%" == "y"  goto yes
 if "%judge%" == "n"  goto no
 :yes
-xcopy  "C:\Users\%username%\AppData\Local\sigil-ebook" "%~dp0sigil-ebook" /c /e /h /y
+xcopy  "%LocalAppData%\sigil-ebook" "%~dp0sigil-ebook" /c /e /h /y
 ::复制配置文件到绿色版
 goto OUTFOR
 
@@ -29,7 +29,7 @@ goto OUTFOR
 goto OUTFOR
 
 :OUTFOR
-rd /s /q "C:\Users\%username%\AppData\Local\sigil-ebook" 
+rd /s /q "%LocalAppData%\sigil-ebook" 
 del "%SystemRoot%\Prefetch\SIGIL.EXE-**" /a /f /q
 del "%SystemRoot%\Prefetch\SIGIL-**" /a /f /q
 del "%SystemRoot%\Prefetch\QTWEBENGINEPROCESS.EXE-**" /a /f /q
